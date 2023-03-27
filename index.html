@@ -27,60 +27,59 @@
         height: 470px;
         width: 23%;
         padding: 0 10px;
+        border: 1px solid black;
+        text-align: justify;
+        font-family: verdana, sans-serif;
+        font-size: 12px;
       }
       #column1 {
         position: relative;
         background-color: #E1B233;
         margin: 11px;
-        width: 30%;
-        height: 300px;
+        width: 300px;
+        height: 160px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        
       }
       #column2 {
         position: relative;
         background-color: #B38A1A;
         margin: 11px;
-        width: 30%;
-        height: 300px;
+        width: 300px;
+        height: 160px;
+        overflow-x: auto;
+        overflow-y: hidden;
       }
       #column3 {
         position: relative;
         background-color: #80610B;
         margin: 11px;
-        width: 30%;
-        height: 300px;
+        width: 622px;
+        height: 160px;
+        overflow-x: auto;
+        overflow-y: auto;
       }
       h1 {
         position: relative;
-        color: #000000;
+        color: black;
         text-align: center;
         margin-top: 45px;
       }
       h2 {
         position: relative;
-        color: #000000;
+        color: black;
         text-align: center;
         border: 1px solid black;
-        width: 25%;
+        width: 35%;
         background-color: orange;
         color: #333;
-        margin-left: 280px;
-        
+        margin-left: 192px;
+        margin-top: -2px;
       }
+      
         /******TABLET DEVICE******/
-@ media (min-width: 768px) and (max-width: 991px)
-  #p1 {
-    width: 80%;
-    height: 150px;
-  }
-  #p2 {
-    width: 150px;
-    height: 150px;
-  }
-  #p3 {
-    width: 150px;
-    height: 150px;
-  }
- }
+@ media only screen and (min-width: 768px) and (max-width: 991px)
   #p {
     width: 100%; 
     text-align: justify;
@@ -106,17 +105,17 @@
   <body>
     <main id="boxes">
       <h1>TABLET</h1><br><br>
-      <div id="column1"><br>
-        <h2>Title 1</h2><br> 
-        <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p1>
+      <div id="column1">
+        <h2>Chicken</h2><br> 
+        <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p1>
       </div>
-      <div id="column2"><br>
-        <h2>Title 2</h2><br> 
-        <p2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p2>
+      <div id="column2">
+        <h2>Beaf</h2><br> 
+        <p2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p2>
       </div>
-      <div id="column3"><br>
-        <h2>Title 3</h2><br> 
-        <p3>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cities of the word in classical literature, discovered the undoubtable source.</p3>
+      <div id="column3">
+        <h2>Sushi</h2><br> 
+        <p3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p3>
       </div>
     </main>
   </body>
